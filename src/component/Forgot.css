@@ -1,0 +1,26 @@
+.card{
+  width: 400px;
+  height: 200px;
+  display:flex;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  box-shadow: 1px 3px 10px #e9ecef;
+  background-color: white;
+  margin: 100px;
+  text-align: left;
+  text-decoration: none;
+  align-items: center;
+  
+}
+
+
+
+.body{
+  background-color: #6e68a4; 
+
+}
+
+.btn{
+  text-align:center;
+  margin: 10px;
+} 

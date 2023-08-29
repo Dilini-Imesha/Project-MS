@@ -1,39 +1,39 @@
- /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
- @import 'bootstrap/dist/css/bootstrap.min.css'; */
 
- /* .body{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins" ;
-    background-color: #eee;
- } */
 
- /* *{
-    box-sizing: border-box;
- } */
-/* 
- .form{
-    display: block;
-    background-color: aliceblue;
-    box-shadow: 1px 1px 3px 2px #ddd;
-    margin: 40px auto;
-    max-width: 600px;
-    max-height: 700px;
-    padding: 20px 40px;
- }
+.Request{
+  max-width: 900px;
+  width: 500px;
+  height: 500px;
+  display:flex;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  box-shadow: 1px 3px 10px #e9ecef;
+  background-color: white;
+  margin: 100px;
+ text-align: left;
+ text-decoration: none;
+ padding-left: 50px;
+}
 
- .form input , textarea{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 10px auto ;
-    padding: 10px;
-    font-family: "Poppins" ;
-    background-color: aliceblue;
-    border: 1px solid #ddd;
- }
+Form.Label{
+  max-width: 320px;
+  width: 100vw;
+  margin: 2em auto;
+}
 
- .form span{
-    color: aqua;
+Form.Label{
+ margin-left: auto;
+ text-align:center;
+ text-decoration: none;
+}
 
- } */
+Form.Control{
+  width: 90px;
+  height: 90px;
+}
+
+Form.Group-formGridPriority{
+  text-align: center;
+  text-decoration: none;
+}
+

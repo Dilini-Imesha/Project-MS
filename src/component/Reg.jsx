@@ -3,7 +3,8 @@ import bgImg from '../assest/S.jpg';
 import { useForm } from 'react-hook-form';
 import "./Form.css";
 import { toast } from "react-toastify";
-import {useNavigate} from "react-router-dom"
+import {useNavigate,Link} from "react-router-dom";
+import Button from 'react-bootstrap/Button';
 
 
 export default function Form() {
@@ -21,7 +22,7 @@ export default function Form() {
         } else {
       
             toast.success("Successful");
-            navigate("/Requirment");
+            navigate("/ProjectManeger");
         
         }
     
@@ -38,15 +39,22 @@ export default function Form() {
         <div className="register">
             <div className="col-1">
                 <h2>Sign In</h2>
-                <span>register and enjoy the service</span>
+               
 
                 <form id='form' className='flex flex-col' onSubmit={handleSubmit(onSubmit)}>
                     <input type="text" {...register("Username")} placeholder='username' />
                     <input type="password" {...register("Password")} placeholder='password' />
+                    <a href="ForgotPassword" className="card-link">
+                    Forgot Password 
+                        </a>
                  
-                    <button className='btn'>Sign In</button>
-             
-                    
+                    <button className='btn' style={{ margin: "auto", width: "100%" }}>Sign In</button>
+
+                    <p>All ready Registed? <a href="Register" className="card-link">
+                            Register Now 
+                        </a></p>
+                        
+
                 </form>
 
             </div>

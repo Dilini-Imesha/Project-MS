@@ -9,7 +9,7 @@ export default function SideBar() {
         <a className="menu-item" href="/projects-home">
           Home
         </a>
-        <a className="menu-item" href="/project-requirement">
+        <a className="menu-item" href="/requirement">
           Requirement
         </a>
         <a className="menu-item" href="/project-task">

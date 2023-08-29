@@ -1,0 +1,14 @@
+.card.Deverloper{
+    max-width: 900px;
+    width: 500px;
+    height: 500px;
+    display:flex;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px #e9ecef;
+    background-color: white;
+    margin: 100px;
+   text-align: left;
+   text-decoration: none;
+   padding-left: 50px;
+}

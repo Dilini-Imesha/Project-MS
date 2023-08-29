@@ -1,0 +1,11 @@
+.body{
+    margin: 10px;
+    align-items: flex-start;
+    justify-items: left;
+}
+
+.card1{
+    background-color: rgb(237, 246, 246);
+    justify-content: left;
+
+}
